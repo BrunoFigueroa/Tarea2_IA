@@ -1,0 +1,10 @@
+{
+    "models": [
+        {"name": "log_A", "type": "logistic", "alpha": 1e-4, "eta0": 0.01, "learning_rate": "constant", "batch_size": 256, "max_epochs": 50},
+        {"name": "log_B", "type": "logistic", "alpha": 1e-3, "eta0": 0.005, "learning_rate": "constant", "batch_size": 512, "max_epochs": 50},
+        {"name": "log_C", "type": "logistic", "alpha": 1e-5, "eta0": 0.02, "learning_rate": "constant", "batch_size": 128, "max_epochs": 50},
+        {"name": "svm_A", "type": "svm", "alpha": 1e-4, "eta0": 0.005, "learning_rate": "constant", "batch_size": 256, "max_epochs": 50},
+        {"name": "svm_B", "type": "svm", "alpha": 1e-3, "eta0": 0.001, "learning_rate": "constant", "batch_size": 512, "max_epochs": 50},
+        {"name": "svm_C", "type": "svm", "alpha": 1e-5, "eta0": 0.01, "learning_rate": "constant", "batch_size": 128, "max_epochs": 50}
+    ]
+}
